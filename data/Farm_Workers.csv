@@ -1,0 +1,6 @@
+FirstName,LastName,Email,Phone,Worker_Type__c,Daily_Wage_Rate__c,Skills__c,Availability_Status__c,Aadhaar_Number__c,External_ID__c
+Ravi,Kumar,ravi.kumar@example.com,9876543210,Farm Manager,800,"Irrigation Management;Planting;General Maintenance",Available,123456789012,CON-001
+Suresh,Reddy,,9876543211,Permanent Worker,500,"Planting;Harvesting",Available,234567890123,CON-002
+Lakshmi,Devi,,9876543212,Permanent Worker,450,"Planting;Weeding",Available,345678901234,CON-003
+Ramesh,Naidu,,9876543213,Daily Wage Worker,400,General Maintenance,Available,456789012345,CON-004
+Venkat,Rao,,9876543214,Seasonal Worker,450,Harvesting,Available,567890123456,CON-005

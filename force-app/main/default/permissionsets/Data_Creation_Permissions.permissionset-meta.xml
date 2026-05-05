@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions><editable>true</editable><field>Account.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Account.GST_Number__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Account.Preferred_Payment_Terms__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Account.Quality_Rating__c</field><readable>true</readable></fieldPermissions>
+    
+    <fieldPermissions><editable>true</editable><field>Contact.Aadhaar_Number__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Availability_Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Daily_Wage_Rate__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Skills__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Contact.Worker_Type__c</field><readable>true</readable></fieldPermissions>
+
+    <fieldPermissions><editable>true</editable><field>Farm_Bed__c.Bed_Size_Acres__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Bed__c.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Bed__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Bed__c.Status_Force__c</field><readable>true</readable></fieldPermissions>
+
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Category__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Current_Stock__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Location_Storage__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Minimum_Stock_Level__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Reorder_Quantity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Unit__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Inventory_Item__c.Unit_Cost__c</field><readable>true</readable></fieldPermissions>
+
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Crop_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Expected_Harvest_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Expected_Yield_kg__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Planting_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Quantity_Planted__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Unit_of_Measurement__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Crop_Cycle__c.Variety__c</field><readable>true</readable></fieldPermissions>
+
+    <fieldPermissions><editable>true</editable><field>Expense__c.Category__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Expense__c.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Expense__c.Payment_Method__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Expense__c.Payment_Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Expense__c.Quantity_Used__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Expense__c.Unit__c</field><readable>true</readable></fieldPermissions>
+
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Due_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Estimated_Hours__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Priority__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Status_Force__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Farm_Task__c.Task_Type__c</field><readable>true</readable></fieldPermissions>
+
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.External_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Health_Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Location_Row_Column__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Planting_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Producing_Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Tree_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Tree_Asset__c.Variety__c</field><readable>true</readable></fieldPermissions>
+
+    <label>Data Creation Permissions</label>
+</PermissionSet>

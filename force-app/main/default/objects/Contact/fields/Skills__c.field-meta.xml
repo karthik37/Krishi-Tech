@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <label>Skills</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Planting</fullName>
+                <default>false</default>
+                <label>Planting</label>
+            </value>
+            <value>
+                <fullName>Irrigation Management</fullName>
+                <default>false</default>
+                <label>Irrigation Management</label>
+            </value>
+            <value>
+                <fullName>Pruning</fullName>
+                <default>false</default>
+                <label>Pruning</label>
+            </value>
+            <value>
+                <fullName>Pest Control</fullName>
+                <default>false</default>
+                <label>Pest Control</label>
+            </value>
+            <value>
+                <fullName>Harvesting</fullName>
+                <default>false</default>
+                <label>Harvesting</label>
+            </value>
+            <value>
+                <fullName>Weeding</fullName>
+                <default>false</default>
+                <label>Weeding</label>
+            </value>
+            <value>
+                <fullName>Equipment Operation</fullName>
+                <default>false</default>
+                <label>Equipment Operation</label>
+            </value>
+            <value>
+                <fullName>Tractor Driving</fullName>
+                <default>false</default>
+                <label>Tractor Driving</label>
+            </value>
+            <value>
+                <fullName>General Maintenance</fullName>
+                <default>false</default>
+                <label>General Maintenance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

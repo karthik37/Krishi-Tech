@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Cycles</fullName>
+    <columns>NAME</columns>
+    <columns>Crop_Type__c</columns>
+    <columns>Variety__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Planted,Growing,Flowering,Fruiting</value>
+    </filters>
+    <label>Active Cycles</label>
+</ListView>

@@ -1,0 +1,7 @@
+External_ID__c,Farm_Bed__r.External_ID__c,Crop_Type__c,Variety__c,Planting_Date__c,Expected_Harvest_Date__c,Quantity_Planted__c,Unit_of_Measurement__c,Expected_Yield_kg__c,Status__c
+B1-SP-Y0,FB-01,Sweet Potato,Sree Bhadra,2026-06-15,2026-10-15,6000,Cuttings,5000,Planned
+B2-SP-Y0,FB-02,Sweet Potato,Sree Bhadra,2026-06-15,2026-10-15,6000,Cuttings,5000,Planned
+B3-SP-Y0,FB-03,Sweet Potato,Sree Bhadra,2026-06-15,2026-10-15,6000,Cuttings,5000,Planned
+B4-SP-Y0,FB-04,Sweet Potato,Sree Bhadra,2026-06-22,2026-10-22,6000,Cuttings,5000,Planned
+B5-SP-Y0,FB-05,Sweet Potato,Sree Bhadra,2026-06-22,2026-10-22,6000,Cuttings,5000,Planned
+B6-SP-Y0,FB-06,Sweet Potato,Sree Bhadra,2026-06-22,2026-10-22,6000,Cuttings,5000,Planned

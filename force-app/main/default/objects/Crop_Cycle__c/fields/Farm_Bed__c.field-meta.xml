@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Farm_Bed__c</fullName>
+    <description>The farm bed where this crop cycle is taking place.</description>
+    <label>Farm Bed</label>
+    <referenceTo>Farm_Bed__c</referenceTo>
+    <relationshipLabel>Crop Cycles</relationshipLabel>
+    <relationshipName>Crop_Cycles</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_WhatsApp_Notification</name>
+        <label>Send WhatsApp Notification</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>WhatsAppService</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>combinedParams</name>
+            <value>
+                <stringValue>+919876543210|URGENT: Task overdue - {!$Record.Task_Type__c}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>WhatsAppService</nameSegment>
+    </actionCalls>
+    <apiVersion>66.0</apiVersion>
+    <decisions>
+        <name>Check_If_Overdue</name>
+        <label>Check If Overdue</label>
+        <locationX>176</locationX>
+        <locationY>215</locationY>
+        <defaultConnectorLabel>Default</defaultConnectorLabel>
+        <rules>
+            <name>Is_Overdue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>IsOverdueFormula</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_WhatsApp_Notification</targetReference>
+            </connector>
+            <label>Is Overdue</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>IsOverdueFormula</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Record.Due_Date__c} &lt; TODAY()</expression>
+    </formulas>
+    <label>Task Overdue WhatsApp Alert</label>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_If_Overdue</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </filters>
+        <object>Farm_Task__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

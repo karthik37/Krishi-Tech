@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expense_Compact</fullName>
+    <fields>Category__c</fields>
+    <fields>Amount__c</fields>
+    <fields>Date__c</fields>
+    <fields>Payment_Status__c</fields>
+    <label>Expense Compact</label>
+</CompactLayout>

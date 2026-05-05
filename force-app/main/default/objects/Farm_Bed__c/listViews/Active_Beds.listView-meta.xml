@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Beds</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Soil_Type__c</columns>
+    <columns>Irrigation_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Planted,Growing,Ready for Harvest</value>
+    </filters>
+    <label>Active Beds</label>
+</ListView>

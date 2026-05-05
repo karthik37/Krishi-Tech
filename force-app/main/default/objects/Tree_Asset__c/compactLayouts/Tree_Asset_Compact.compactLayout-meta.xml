@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tree_Asset_Compact</fullName>
+    <fields>Tree_Type__c</fields>
+    <fields>Variety__c</fields>
+    <fields>Age_Years__c</fields>
+    <fields>Health_Status__c</fields>
+    <fields>Producing_Status__c</fields>
+    <label>Tree Asset Compact</label>
+</CompactLayout>

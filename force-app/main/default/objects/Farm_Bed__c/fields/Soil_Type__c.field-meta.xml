@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soil_Type__c</fullName>
+    <description>The primary soil composition of the farm bed.</description>
+    <label>Soil Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loamy</fullName>
+                <default>true</default>
+                <label>Loamy</label>
+            </value>
+            <value>
+                <fullName>Sandy</fullName>
+                <default>false</default>
+                <label>Sandy</label>
+            </value>
+            <value>
+                <fullName>Clay</fullName>
+                <default>false</default>
+                <label>Clay</label>
+            </value>
+            <value>
+                <fullName>Silt</fullName>
+                <default>false</default>
+                <label>Silt</label>
+            </value>
+            <value>
+                <fullName>Peaty</fullName>
+                <default>false</default>
+                <label>Peaty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

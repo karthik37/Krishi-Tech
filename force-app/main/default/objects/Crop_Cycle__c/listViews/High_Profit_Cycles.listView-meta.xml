@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Profit_Cycles</fullName>
+    <columns>NAME</columns>
+    <columns>Crop_Type__c</columns>
+    <columns>Net_Profit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>Net_Profit__c</field>
+        <operation>greaterThan</operation>
+        <value>50000</value>
+    </filters>
+    <label>High Profit Cycles</label>
+</ListView>

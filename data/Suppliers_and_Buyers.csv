@@ -1,0 +1,7 @@
+Name,Type,Phone,BillingCity,Preferred_Payment_Terms__c,Quality_Rating__c,GST_Number__c,External_ID__c
+Anantapur Seed Suppliers,Supplier - Seeds/Saplings,9123456789,Anantapur,7 Days Credit,Good,37XXXXX1234Z5,ACC-001
+Green Fertilizers Pvt Ltd,Supplier - Fertilizer,9123456790,Anantapur,15 Days Credit,Excellent,37XXXXX5678Z9,ACC-002
+Farm Equipment Store,Supplier - Equipment,9123456791,Anantapur,Immediate Cash,Good,37XXXXX9012Z3,ACC-003
+Bangalore Wholesale Market,Buyer - Wholesale,9823456789,Bangalore,7 Days Credit,Excellent,29XXXXX1111Z1,ACC-004
+Organic Foods Direct,Buyer - Retail,9823456790,Hyderabad,15 Days Credit,Excellent,36XXXXX2222Z2,ACC-005
+Local Vegetable Market,Buyer - Wholesale,9123456792,Anantapur,Immediate Cash,Good,,ACC-006

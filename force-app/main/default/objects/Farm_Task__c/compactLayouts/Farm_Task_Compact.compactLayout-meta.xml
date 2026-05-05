@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Farm_Task_Compact</fullName>
+    <fields>Task_Type__c</fields>
+    <fields>Assigned_To__c</fields>
+    <fields>Due_Date__c</fields>
+    <fields>Status__c</fields>
+    <fields>Priority__c</fields>
+    <label>Farm Task Compact</label>
+</CompactLayout>

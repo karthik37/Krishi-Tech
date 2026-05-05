@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Check_Formula</name>
+        <label>Check Formula</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default</defaultConnectorLabel>
+        <rules>
+            <name>Is_Due_Soon</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>IsHarvestDueSoon</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Harvest_Task</targetReference>
+            </connector>
+            <label>Is Due Soon</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>IsHarvestDueSoon</name>
+        <dataType>Boolean</dataType>
+        <expression>({!$Record.Expected_Harvest_Date__c} - TODAY() &lt;= 7) &amp;&amp; ({!$Record.Expected_Harvest_Date__c} - TODAY() &gt; 0)</expression>
+    </formulas>
+    <interviewLabel>Auto Create Harvest Task {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Auto Create Harvest Task</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Harvest_Task</name>
+        <label>Create Harvest Task</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Crop_Cycle__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Due_Date__c</field>
+            <value>
+                <elementReference>$Record.Expected_Harvest_Date__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Farm_Bed__c</field>
+            <value>
+                <elementReference>$Record.Farm_Bed__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority__c</field>
+            <value>
+                <stringValue>High</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Task_Name__c</field>
+            <value>
+                <stringValue>Harvest Crop</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Task_Type__c</field>
+            <value>
+                <stringValue>Harvesting</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Farm_Task__c</object>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Formula</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Expected_Harvest_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Crop_Cycle__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

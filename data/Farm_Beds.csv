@@ -1,0 +1,19 @@
+Name,Bed_Size_Acres__c,Location_Description__c,Soil_Type__c,Irrigation_Status__c,Status__c,Notes__c,External_ID__c
+Bed 1,0.5,"Northwest corner, near pond",Red Sandy Loam,Not Installed,Under Preparation,First bed to be developed,FB-01
+Bed 2,0.5,"Northwest, second position",Red Sandy Loam,Not Installed,Under Preparation,Adjacent to Bed 1,FB-02
+Bed 3,0.5,"Northwest, third position",Red Sandy Loam,Not Installed,Under Preparation,,FB-03
+Bed 4,0.5,"North center, first position",Red Sandy Loam,Not Installed,Under Preparation,,FB-04
+Bed 5,0.5,"North center, second position",Red Sandy Loam,Not Installed,Under Preparation,,FB-05
+Bed 6,0.5,Northeast corner,Red Sandy Loam,Not Installed,Under Preparation,Near main road access,FB-06
+Bed 7,0.5,"West side, first position",Red Sandy Loam,Not Installed,Under Preparation,,FB-07
+Bed 8,0.5,Center west,Red Sandy Loam,Not Installed,Under Preparation,,FB-08
+Bed 9,0.5,Central position,Red Sandy Loam,Not Installed,Under Preparation,Core mango area,FB-09
+Bed 10,0.5,Center east,Red Sandy Loam,Not Installed,Under Preparation,,FB-10
+Bed 11,0.5,"East side, first position",Red Sandy Loam,Not Installed,Under Preparation,,FB-11
+Bed 12,0.5,"East side, second position",Red Sandy Loam,Not Installed,Under Preparation,,FB-12
+Bed 13,0.5,Southwest corner,Red Sandy Loam,Not Installed,Under Preparation,Designated for Guava,FB-13
+Bed 14,0.5,"South center, first position",Red Sandy Loam,Not Installed,Under Preparation,Designated for Guava,FB-14
+Bed 15,0.5,"South center, second position",Red Sandy Loam,Not Installed,Under Preparation,Designated for Guava,FB-15
+Bed 16,0.5,"South side, third position",Red Sandy Loam,Not Installed,Under Preparation,Final mango beds,FB-16
+Bed 17,0.5,"South side, fourth position",Red Sandy Loam,Not Installed,Under Preparation,Final mango beds,FB-17
+Bed 18,0.5,Southeast corner,Red Sandy Loam,Not Installed,Under Preparation,Near future shed location,FB-18

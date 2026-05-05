@@ -1,0 +1,11 @@
+External_ID__c,Tree_Type__c,Variety__c,Planting_Date__c,Location_Row_Column__c,Health_Status__c,Producing_Status__c,Notes__c
+TREE-001,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-01,Excellent,Not Yet Producing,North border tree 1
+TREE-002,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-02,Excellent,Not Yet Producing,North border tree 2
+TREE-003,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-03,Excellent,Not Yet Producing,North border tree 3
+TREE-004,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-04,Excellent,Not Yet Producing,North border tree 4
+TREE-005,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-05,Excellent,Not Yet Producing,North border tree 5
+TREE-006,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-06,Excellent,Not Yet Producing,North border tree 6
+TREE-007,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-07,Excellent,Not Yet Producing,North border tree 7
+TREE-008,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-08,Excellent,Not Yet Producing,North border tree 8
+TREE-009,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-09,Excellent,Not Yet Producing,North border tree 9
+TREE-010,Coconut,Chowghat Orange Dwarf,2026-07-01,Border-N-10,Excellent,Not Yet Producing,North border tree 10

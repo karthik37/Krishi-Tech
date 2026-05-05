@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Worker_Type_New__c</fullName>
+    <label>Worker Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Farm Manager</fullName>
+                <default>false</default>
+                <label>Farm Manager</label>
+            </value>
+            <value>
+                <fullName>Permanent Worker</fullName>
+                <default>false</default>
+                <label>Permanent Worker</label>
+            </value>
+            <value>
+                <fullName>Daily Wage Worker</fullName>
+                <default>false</default>
+                <label>Daily Wage Worker</label>
+            </value>
+            <value>
+                <fullName>Seasonal Worker</fullName>
+                <default>false</default>
+                <label>Seasonal Worker</label>
+            </value>
+            <value>
+                <fullName>Specialist (Pruning, etc.)</fullName>
+                <default>false</default>
+                <label>Specialist (Pruning, etc.)</label>
+            </value>
+            <value>
+                <fullName>Driver</fullName>
+                <default>false</default>
+                <label>Driver</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

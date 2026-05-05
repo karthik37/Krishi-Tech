@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Farm_Task__c.Task_Type__c</field>
+    </columns>
+    <columns>
+        <field>Farm_Task__c.Farm_Bed__c</field>
+    </columns>
+    <columns>
+        <field>Farm_Task__c.Due_Date__c</field>
+    </columns>
+    <columns>
+        <field>Farm_Task__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>Farm_Task__c.Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Farm_Task__c.Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Not Started,In Progress</value>
+        </criteriaItems>
+
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Farm_Task__c.Assigned_To__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Pending Tasks Next 30 Days</name>
+    <reportType>CustomEntity$Farm_Task__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Farm_Task__c.Due_Date__c</dateColumn>
+        <interval>INTERVAL_NEXT30</interval>
+    </timeFrameFilter>
+</Report>

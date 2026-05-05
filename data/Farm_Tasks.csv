@@ -1,0 +1,4 @@
+External_ID__c,Task_Name__c,Task_Type__c,Assigned_To__r.External_ID__c,Farm_Bed__r.External_ID__c,Crop_Cycle__r.External_ID__c,Due_Date__c,Priority__c,Status__c,Estimated_Hours__c,Notes__c
+TSK-001,Irrigate Bed 1,Watering,CON-001,FB-01,B1-SP-Y0,2026-04-04,High,Not Started,0.5,"Daily watering for first 10 days after planting"
+TSK-002,Weed Beds 1-3,Weeding,CON-002,FB-01,B1-SP-Y0,2026-04-23,Medium,,,""
+TSK-003,Soil Test - All Beds,Soil Testing,,FB-01,B1-SP-Y0,2026-04-10,High,Not Started,,Get comprehensive soil test before major planting

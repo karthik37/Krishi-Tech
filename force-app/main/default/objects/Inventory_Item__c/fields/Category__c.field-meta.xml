@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Seeds</fullName>
+                <default>false</default>
+                <label>Seeds</label>
+            </value>
+            <value>
+                <fullName>Fertilizer - Chemical</fullName>
+                <default>false</default>
+                <label>Fertilizer - Chemical</label>
+            </value>
+            <value>
+                <fullName>Fertilizer - Organic</fullName>
+                <default>false</default>
+                <label>Fertilizer - Organic</label>
+            </value>
+            <value>
+                <fullName>Pesticide - Organic</fullName>
+                <default>false</default>
+                <label>Pesticide - Organic</label>
+            </value>
+            <value>
+                <fullName>Irrigation Equipment</fullName>
+                <default>false</default>
+                <label>Irrigation Equipment</label>
+            </value>
+            <value>
+                <fullName>Tools</fullName>
+                <default>false</default>
+                <label>Tools</label>
+            </value>
+            <value>
+                <fullName>Saplings</fullName>
+                <default>false</default>
+                <label>Saplings</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

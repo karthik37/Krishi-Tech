@@ -1,0 +1,11 @@
+Name,Category__c,Unit__c,Current_Stock__c,Minimum_Stock_Level__c,Reorder_Quantity__c,Unit_Cost__c,Preferred_Supplier__r.External_ID__c,Location_Storage__c,External_ID__c
+Sweet Potato Cuttings - Sree Bhadra,Seeds,Pieces,0,5000,10000,1.5,ACC-001,Storage Room,INV-001
+NPK Fertilizer (19-19-19),Fertilizer - Chemical,Kg,50,100,200,45,ACC-002,Fertilizer Shed,INV-002
+FYM (Farmyard Manure),Fertilizer - Organic,Bags,20,50,100,150,,Open Storage,INV-003
+Neem Oil (Pesticide),Pesticide - Organic,Liters,5,10,20,450,ACC-002,Storage Room,INV-004
+Drip Laterals (16mm),Irrigation Equipment,Meters,0,500,1000,8,ACC-003,Tool Shed,INV-005
+Spades,Tools,Pieces,10,5,10,250,ACC-003,Tool Shed,INV-006
+Pruning Shears,Tools,Pieces,5,3,5,400,ACC-003,Tool Shed,INV-007
+Turmeric Rhizomes,Seeds,Kg,0,500,1000,120,ACC-001,Storage Room,INV-008
+Coconut Saplings - COD,Saplings,Pieces,0,50,100,700,ACC-001,Nursery Area,INV-009
+Mango Saplings - Alphonso,Saplings,Pieces,0,50,100,450,ACC-001,Nursery Area,INV-010

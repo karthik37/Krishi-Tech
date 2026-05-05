@@ -1,0 +1,5 @@
+External_ID__c,Crop_Cycle__r.External_ID__c,Category__c,Date__c,Amount__c,Quantity_Used__c,Unit__c,Vendor_Supplier__r.External_ID__c,Payment_Status__c,Payment_Method__c
+EXP-001,B1-SP-Y0,Seeds/Saplings,2026-06-10,9000,6000,cuttings,ACC-001,Paid,UPI
+EXP-002,B1-SP-Y0,Labor - Planting,2026-06-12,3600,3,days,,Paid,Cash
+EXP-003,B1-SP-Y0,Fertilizer,2026-06-13,600,200,kg,,Paid,Cash
+EXP-004,B1-SP-Y0,Irrigation - Equipment,2026-06-14,4000,,,ACC-003,Pending,

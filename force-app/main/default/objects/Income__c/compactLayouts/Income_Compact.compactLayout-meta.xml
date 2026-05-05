@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Income_Compact</fullName>
+    <fields>Sale_Source__c</fields>
+    <fields>Amount__c</fields>
+    <fields>Date__c</fields>
+    <fields>Buyer_Customer__c</fields>
+    <label>Income Compact</label>
+</CompactLayout>

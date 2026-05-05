@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Yield_Reasonable</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK(Actual_Yield_kg__c)), NOT(ISBLANK(Expected_Yield_kg__c)), Expected_Yield_kg__c &gt; 0, Actual_Yield_kg__c &gt; (Expected_Yield_kg__c * 1.5) )</errorConditionFormula>
+    <errorDisplayField>Actual_Yield_kg__c</errorDisplayField>
+    <errorMessage>Actual yield is more than 50% higher than expected. Please verify your numbers or update expected yield.</errorMessage>
+</ValidationRule>
